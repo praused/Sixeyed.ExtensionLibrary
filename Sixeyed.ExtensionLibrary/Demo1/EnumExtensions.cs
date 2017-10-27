@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sixeyed.ExtensionLibrary
+namespace Sixeyed.ExtensionLibrary.Demo1
 {
-    public class Class1
+    class EnumExtensions
     {
     }
 }
