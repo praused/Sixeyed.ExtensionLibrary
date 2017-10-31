@@ -54,10 +54,11 @@
   <ItemGroup>
     <Compile Include="Demo1\EnumExtensionsTests.cs" />
     <Compile Include="Demo1\ExceptionExtensionsTests.cs" />
+    <Compile Include="Demo2\Map.cs" />
+    <Compile Include="Demo2\MapTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Demo2\" />
     <Folder Include="Demo3\" />
   </ItemGroup>
   <ItemGroup>
