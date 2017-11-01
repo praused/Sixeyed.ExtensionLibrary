@@ -56,12 +56,15 @@
     <Compile Include="Demo1\ExceptionExtensionsTests.cs" />
     <Compile Include="Demo2\Map.cs" />
     <Compile Include="Demo2\MapTests.cs" />
+    <Compile Include="Demo3\DomainModelTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Demo3\" />
-  </ItemGroup>
-  <ItemGroup>
+    <ProjectReference Include="..\Sixeyed.ExtensionLibrary.Domain\Sixeyed.ExtensionLibrary.Domain.csproj">
+      <Project>{a984f9c2-dcef-4e47-a7f1-1985ee0b8f8a}</Project>
+      <Name>Sixeyed.ExtensionLibrary.Domain</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Sixeyed.ExtensionLibrary\Sixeyed.ExtensionLibrary.csproj">
       <Project>{e413d27a-a2d1-431a-a8b4-a6b6938443b7}</Project>
       <Name>Sixeyed.ExtensionLibrary</Name>
