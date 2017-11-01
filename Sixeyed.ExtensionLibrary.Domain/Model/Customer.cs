@@ -18,11 +18,14 @@ namespace Sixeyed.ExtensionLibrary.Domain.Model
         public Customer()
         {
             this.Orders = new HashSet<Order>();
+            this.Audit = new Audit();
         }
     
         public int Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
+    
+        public Audit Audit { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Order> Orders { get; set; }
