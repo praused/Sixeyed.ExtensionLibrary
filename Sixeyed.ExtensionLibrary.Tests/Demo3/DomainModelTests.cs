@@ -11,7 +11,8 @@ namespace Sixeyed.Extensions.Samples.Tests
         [TestMethod]
         public void SaveChanges()
         {
-            ////New version of EF does not have DomainModelContainer
+            ////Provided code is not compatible with current Entity Framework.
+            ////Need to get familiar with changes to EF before completing demo 4.
             //using (var container = new DomainModelContainer())
             //{
 
